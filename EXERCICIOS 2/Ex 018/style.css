@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: green;
+}
+
+h1#manchete{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+h2{
+    color: lightgreen;
+}
+
+.basico{
+    color: beige;
+}
+
+.intermediario{
+    color: calc(12);
+}
+
+.avancado{
+    color:aqua;
+}

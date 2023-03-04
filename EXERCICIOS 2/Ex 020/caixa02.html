@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }   
+
+        body{
+            background-color: rgb(78, 78, 90);
+        }
+        
+        header{
+            background-color: white;
+            padding: 1px 10px 10px 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.267);
+        }
+
+        nav{
+            background-color: grey;
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav:hover > a{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;;
+            margin: 10px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.267);
+        }
+
+        article{
+            background-color: rgb(204, 204, 204);
+            padding: 5px;
+            margin: 10px;
+        }
+
+        article > aside{
+            background-color: rgb(148, 148, 148) ;
+        }
+
+        footer{
+            background-color: black;
+            margin: 0px;
+            padding: 1px;
+            color: white;
+            text-align: center;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.267);
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Noticias sobre o Brasil</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, minus? Vitae, officia voluptatum? Placeat, blanditiis. Cupiditate doloremque nulla, maxime culpa officiis in est soluta odio fugit ad officia non impedit?
+                </p>
+                <aside>
+                    Artigo escrito por Lorem pereira
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Curso em video</p>
+    </footer>
+</body>
+</html>
