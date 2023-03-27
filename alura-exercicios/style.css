@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+}
+
+strong{
+    color: #22D4FD;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 100x;
+    border-radius: 16px;
+    background-color: #22D4FD;
+}
