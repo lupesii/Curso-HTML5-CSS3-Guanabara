@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
-strong{
+.conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.destaque{
     color: #22D4FD;
 }
 
