@@ -44,18 +44,34 @@ body{
 
 .principal__conteudo__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.principal__conteudo__links__subtitulo{
+    font: normal 400 24px "Krona One";
 }
 
 .principal__conteudo__links__ancora{
-    width: 280px;
+    /* Display flex */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    /* Tamanho */
+    width: 378px;
     padding: 21.5px 0;
-    border-radius: 16px;
-    background-color: #22D4FD;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: black;
+    /* Fonte e borda */
+    font: normal 600 24px "Montserrat", sans-serif;
+    color: white;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+}
+
+.principal__conteudo__links__ancora:hover{
+    background-color: #272727;
+    color: #22D4FD;
 }
