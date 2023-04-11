@@ -30,7 +30,7 @@ body{
 
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 70px;
 }
 
 .cabecalho__menu__links{
@@ -44,6 +44,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .principal__conteudo{
@@ -129,7 +130,24 @@ body{
     font: 400 1.5rem var(--font-secundaria);
     color: var(--cor-primaria);
     text-align: center;
+}
 
+@media(max-width: 1200px){
 
+    .cabecalho{
+        padding: 5%;
+    }
 
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .principal{
+        flex-direction: column-reverse;
+        padding: 6% ;
+    }
+
+    .principal__conteudo{
+        width: auto;
+    }
 }
